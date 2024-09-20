@@ -1,0 +1,34 @@
+Q. What is Inheritance?
+A. Inheritance is the process by which one object acquires the properties of another object.
+> Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application. This also provides an opportunity to reuse the code functionality and fast implementation time.
+
+
+
+Class A {
+    properties
+}
+Class B : public A {
+    properties
+}
+
+
+
+here class B is inheriting class A and class A is base class and class B is derived class.
+Terminoogy:
+> Base Class: The class whose properties are inherited is called Base Class or Parent class, or Super class.
+> Derived Class: The class that inherits the properties from another class is called Derived Class or Child class, or Sub class.
+> Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+
+
+Types of Inheritance:
+1. Single Inheritance: When a class inherits only one class, it is called single inheritance.
+2. Multiple Inheritance: When a class inherits multiple classes, it is called multiple inheritance.
+3. Multilevel Inheritance: When a class inherits a derived class, it is called multilevel inheritance.
+4. Hierarchical Inheritance: When one class serves as a base class for more than one derived class, it is called hierarchical inheritance.
+5. Hybrid Inheritance: Hybrid inheritance is a combination of multiple and multilevel inheritance.
+
+
+
+
+Aggregation:    Aggregation is a special form of association. It is a relationship between two classes like association, however its a directional association, which means it is strictly a one way association. It represents a HAS-A relationship. For example, department can have students but vice versa is not possible and thus unidirectional in nature.
