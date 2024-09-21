@@ -32,20 +32,17 @@ int main(){
 
 
 
-/*
-1. **Employee Hierarchy with Skills:**
-   Design a class hierarchy for an employee management system. Each employee can be of different types (Manager, Engineer, Salesperson, etc.) and possess multiple skills (Programming, Sales, Communication, etc.). Implement the hierarchy using multiple inheritance, ensuring that each employee type inherits from both a base Employee class and a Skills class. Handle any potential conflicts or ambiguity arising from inheriting shared attributes or methods.
+// Vehicle and Insurance System:
+// Create a base class Vehicle and another base class Insurance. Derive a class CarInsurance that inherits from both Vehicle and Insurance. Implement methods to display vehicle and insurance details.
 
-2. **Shape Hierarchy with Drawing:**
-   Create a shape hierarchy that includes geometric shapes like Circle, Square, and Triangle. Implement a Drawing class that simulates drawing these shapes on a canvas. Utilize multiple inheritance to achieve this, allowing each shape to inherit from both the Shape base class and the Drawing class to provide drawing functionality.
+// Employee Skills:
+// Implement a base class Employee and two additional classes TechnicalSkills and SoftSkills. Derive a class Engineer that inherits from both Employee and TechnicalSkills. Derive a Manager that inherits from Employee and SoftSkills. Implement methods to show the employee's skills.
 
-3. **Vehicle Fleet with Emission Standards:**
-   Model a vehicle fleet containing different types of vehicles (Car, Truck, Motorcycle) with varying emission standards (Euro 4, Euro 5, Euro 6). Utilize multiple inheritance to design a hierarchy that combines both the Vehicle class and the EmissionStandard class. Address any issues related to inheriting conflicting attributes or methods from the base classes.
+// Student and Athlete:
+// Create a class Person. Create two more classes, Student and Athlete, that have different responsibilities. Derive a class StudentAthlete that inherits from both Student and Athlete, and implement methods to display academic and athletic performance.
 
-4. **Online Shopping Cart with Discounts:**
-   Develop an online shopping cart system that calculates discounts for various products based on their categories (Electronics, Clothing, Books) and ongoing promotions (Seasonal Sale, Holiday Discount). Use multiple inheritance to construct a hierarchy of classes, incorporating both the Product class and the Discount class. Manage potential challenges that arise from inheriting discount calculation logic and product attributes.
+// Device and Appliance:
+// Design two base classes: Device (with attributes like deviceName) and Appliance (with attributes like applianceType). Derive a class SmartAppliance that inherits from both and adds functionality specific to smart devices. Implement methods to show device details.
 
-5. **Animal Classification with Traits:**
-   Design a class hierarchy to categorize animals into different types (Mammals, Birds, Fish) and specify traits (Carnivore, Herbivore, Omnivore). Implement multiple inheritance to create a structure where each animal type inherits from both the Animal class and the Trait class. Handle any complications arising from inheriting conflicting methods or attributes related to animal behavior and traits.
-
-*/
+// Artist and Teacher:
+// Create a class Person. Then create two more classes: Artist and Teacher. Derive a class ArtTeacher that inherits from both Artist and Teacher. Implement methods to manage both teaching and creating artwork.

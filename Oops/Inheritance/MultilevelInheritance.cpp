@@ -46,19 +46,22 @@ int main(){
 
 
 
+// Basic Animal Hierarchy:
+// Create a base class Animal with attributes like name and age. Derive a class Mammal from Animal and another class Dog from Mammal. Implement functions to display basic information about the animal, and methods specific to Dog like bark().
 
 
-// Problem 1: School Management System
-// Create a School Management System using multilevel inheritance. Create a base class "Person" with attributes like name and age. Derive two classes "Student" and "Teacher" from the "Person" class. Then, derive a class "Admin" from the "Teacher" class. Implement functions to display information and manage the roles of students, teachers, and administrators.
 
-// Problem 2: Banking System
-// Design a Banking System using multilevel inheritance. Create a base class "Account" with attributes like account number, balance, and account holder name. Derive two classes "SavingsAccount" and "CurrentAccount" from the "Account" class. Then, derive a class "LoanAccount" from the "SavingsAccount" class. Implement functions to deposit, withdraw, and calculate interest for different account types.
+// Vehicle System:
+// Design a Vehicle class with attributes such as make and model. Derive a class Car that adds an attribute fuelType, and further derive a class ElectricCar that adds a batteryCapacity. Write methods to display the vehicle details.
 
-// Problem 3: Vehicle Hierarchy
-// Model a vehicle hierarchy using multilevel inheritance. Create a base class "Vehicle" with attributes like make, model, and year. Derive two classes "Car" and "Motorcycle" from the "Vehicle" class. Then, derive a class "Sportscar" from the "Car" class. Implement functions to display vehicle details and calculate specifications for each type of vehicle.
 
-// Problem 4: Online Shopping System
-// Develop an Online Shopping System using multilevel inheritance. Create a base class "Product" with attributes like product ID, name, and price. Derive two classes "Electronics" and "Clothing" from the "Product" class. Then, derive a class "Shoes" from the "Clothing" class. Implement functions to add products to the cart, calculate total prices, and manage product categories.
+// Academic Structure:
+// Create a class Person with basic details like name and age. Derive a class Student from Person, and further derive a class GraduateStudent. Add methods in GraduateStudent to show thesis details.
 
-// Problem 5: Animal Kingdom
-// Create an Animal Kingdom simulation using multilevel inheritance. Create a base class "Animal" with attributes like species and habitat. Derive two classes "Mammal" and "Bird" from the "Animal" class. Then, derive a class "Parrot" from the "Bird" class. Implement functions to display animal information, simulate behaviors, and manage the animal hierarchy.
+
+// Company Employee Structure:
+// Implement a Person class. Derive an Employee class that adds attributes like salary and employeeID. Further derive a class Manager that adds a teamSize attribute. Implement methods to display manager details and manage the team.
+
+
+// Library Management System:
+// Create a class Item with attributes like title and ID. Derive a class Book from Item, and further derive a class DigitalBook. Implement methods to show whether the book is digital or physical and display book details.
