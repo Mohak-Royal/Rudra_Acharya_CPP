@@ -1,0 +1,64 @@
+### **Tasks for Hierarchical Inheritance**
+
+1. **Animal Classification**
+   - Create a base class `Animal` with a method `eat()`. Then, derive two classes: `Dog` and `Cat` from `Animal`. Each derived class should have its own specific method, such as `bark()` for `Dog` and `meow()` for `Cat`.
+   - Write a program to demonstrate the inheritance and call the methods for objects of `Dog` and `Cat`.
+   - Expected output:
+     ```
+     Dog eats.
+     Dog barks.
+     Cat eats.
+     Cat meows.
+     ```
+
+2. **Shape Area Calculation**
+   - Create a base class `Shape` with a method `display()`. Derive two classes `Rectangle` and `Circle` from `Shape`. Add methods `area()` in both derived classes to calculate the area of a rectangle and a circle.
+   - Demonstrate how each derived class calculates its respective area.
+   - Expected output:
+     ```
+     Rectangle Area: 50
+     Circle Area: 78.54
+     ```
+
+3. **Bank Account Types**
+   - Create a base class `BankAccount` with methods like `deposit()` and `withdraw()`. Then derive two classes `SavingsAccount` and `CurrentAccount` from `BankAccount`. Add features like `interest()` in `SavingsAccount` and `overdraft()` in `CurrentAccount`.
+   - Demonstrate how different types of accounts handle these features.
+   - Expected output:
+     ```
+     Deposit in Savings Account.
+     Interest added in Savings Account.
+     Deposit in Current Account.
+     Overdraft protection in Current Account.
+     ```
+
+### **Tasks for Hybrid Inheritance**
+
+1. **Student Performance**
+   - Create a base class `Person` with details like `name` and `age`. Then, derive a class `Student` from `Person`, and another class `Athlete` from `Person`. Create a class `StudentAthlete` that inherits from both `Student` and `Athlete`.
+   - Implement methods to display the student’s academic and athletic performance.
+   - Expected output:
+     ```
+     Name: John
+     Age: 20
+     Academic performance: 85%
+     Athletic performance: Basketball
+     ```
+
+2. **Company Employee Structure**
+   - Create a base class `Employee` with details like `name` and `ID`. Derive two classes `Engineer` and `Manager` from `Employee`. Then create a class `LeadEngineer` that inherits from both `Engineer` and `Manager`.
+   - Implement methods for `work()`, `manageProject()`, and `leadTeam()`.
+   - Expected output:
+     ```
+     Engineer Name: Alice
+     ID: 101
+     Project Management: Yes
+     Team Leadership: Yes
+     ```
+
+3. **Multiple Skills Employee**
+   - Create a base class `Skill` with a method `displaySkill()`. Then derive two classes `ProgrammingSkill` and `CommunicationSkill` from `Skill`. Create a class `MultiTalentedEmployee` that inherits from both `ProgrammingSkill` and `CommunicationSkill`.
+   - Demonstrate how the employee displays both programming and communication skills.
+   - Expected output:
+     ```
+     Programming Skill: C++
+     Communication Skill: Public Speaking
